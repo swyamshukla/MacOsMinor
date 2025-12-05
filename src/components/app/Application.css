@@ -1,0 +1,46 @@
+
+.container {
+  padding: 5px 15px;
+  display: flex;
+  flex-direction: column; /* stack items vertically */
+  align-items: center; /* center horizontally */
+  gap: 1px;
+  width: 130px;
+}
+.container h4 {
+  letter-spacing: 0.8px;
+  font-weight: 600;
+  color: white;
+}
+
+.container:hover {
+  background-color: rgba(255, 255, 255, 0.3607843137);
+  padding: 10px 15px;
+}
+
+.container .folder {
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+/* .container .gallery {
+
+  background-image: url(./pictures1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+} */
+
+
+.icons {
+  display: flex;
+  flex-direction: column; /* stack vertically first */
+  flex-wrap: wrap; /* then wrap into new columns */
+  align-content: flex-start; /* pack columns at left */
+
+  gap: 20px;
+}
